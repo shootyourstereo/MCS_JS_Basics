@@ -8,7 +8,6 @@
 	let result = parseFloat(money) >= allapples+allbread;
 	let res = result.toString();
 	document.getElementById("final").innerHTML = res;
-
 	let back = document.querySelector('body');
 	if(result===true) {
 		back.style.backgroundColor = 'green'
