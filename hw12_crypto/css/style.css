@@ -1,0 +1,16 @@
+@import url(reset.css);
+.level {
+	height: 30px;
+}
+
+.bitcoin .level {
+	background-color: red;
+}
+
+.ethereum .level {
+	background-color: blue;
+}
+
+.litecoin .level {
+	background-color: green;
+}
