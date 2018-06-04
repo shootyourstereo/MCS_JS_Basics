@@ -6,14 +6,19 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="container">
 	<form>
   <label for="city">Введите город</label>
   <input type="text" name="city">
-  <input type="submit" value="Узнать температуру">
+  <input class="button" type="submit" value="Узнать температуру">
 	</form>
   <div class="result">
 		<h2>Температура: <span class="temp"></span> С</h2>
 	</div>
-	<script src="js/script.js"></script>
+  <div class="resultWind">
+		<h2>Сила ветра: <span class="wind"></span> kph</h2>
+  </div>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
